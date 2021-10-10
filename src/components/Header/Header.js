@@ -12,7 +12,7 @@ const Header = ({rightButtonText, setRightButtonText}) => {
     const logout = () => {
         localStorage.removeItem("token")
     }
-
+ 
     const rightButtonAction = () => {
         if (token){
             logout()
